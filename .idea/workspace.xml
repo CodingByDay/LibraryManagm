@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e55bde-6616-4788-a120-91eea67f5377" name="Default Changelist" comment="" />
+    <list default="true" id="43e55bde-6616-4788-a120-91eea67f5377" name="Default Changelist" comment="Database changes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jPBsrBXVPFkcBONMfhq8yoq37y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,10 +26,14 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Database changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database changes" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="317" y="173" key="#Notifications" timestamp="1605377082290">
       <screen x="0" y="0" width="1366" height="728" />
@@ -34,30 +47,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="113" y="109" width="902" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605376824769" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603696434774">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605377278898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603696434774" />
-    <state width="708" height="154" key="GridCell.Tab.0.bottom" timestamp="1605376905416">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605377278898" />
+    <state x="559" y="265" key="Github.ShareDialog" timestamp="1605377267965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605376905416" />
-    <state width="708" height="154" key="GridCell.Tab.0.center" timestamp="1605376905416">
+    <state x="559" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1605377267965" />
+    <state width="708" height="154" key="GridCell.Tab.0.bottom" timestamp="1605380115630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605376905416" />
-    <state width="708" height="154" key="GridCell.Tab.0.left" timestamp="1605376905416">
+    <state width="708" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605380115630" />
+    <state width="708" height="154" key="GridCell.Tab.0.center" timestamp="1605380115630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605376905416" />
-    <state width="708" height="154" key="GridCell.Tab.0.right" timestamp="1605376905416">
+    <state width="708" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605380115630" />
+    <state width="708" height="154" key="GridCell.Tab.0.left" timestamp="1605380115630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605376905416" />
+    <state width="708" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605380115630" />
+    <state width="708" height="154" key="GridCell.Tab.0.right" timestamp="1605380115630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="708" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605380115630" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605377121067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605377121067" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1605377391290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605377391290" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604910222430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -74,5 +95,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605371160111" />
+    <state x="286" y="257" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605377784054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="286" y="257" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1605377784054" />
   </component>
 </project>
