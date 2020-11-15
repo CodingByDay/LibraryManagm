@@ -790,7 +790,7 @@ false posixrules
     <database id="2" parent="1" name="LibraryManagment">
       <ObjectId>24589</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1552</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1560</IntrospectionStateNumber>
       <Relations>sequence|table|24590|24592|1
 sequence|table|24601|24603|1
 sequence|table|24611|24613|1
@@ -873,7 +873,7 @@ sequence|table|24739|24741|1
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1553</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1561</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="18" parent="2" name="heap">
