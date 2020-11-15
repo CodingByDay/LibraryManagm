@@ -10,7 +10,7 @@ BEGIN
         -- uporabimo naslednjo vrednost seqvence
         kljuc = nextval('locations_shelf_number_id_locations_shelf_number_seq');
         -- izvršimo INSERT stavek
-        INSERT INTO locations_shelf_number VALUES (kljuc, i_shelf_number, i_location_words);
+        INSERT INTO locations_shelf_number(id_locations_shelf_number, shelf_number, location_words) VALUES (kljuc, i_shelf_number, i_location_words);
         -- prestrezanje možnih izjem
         EXCEPTION
             WHEN integrity_constraint_violation THEN

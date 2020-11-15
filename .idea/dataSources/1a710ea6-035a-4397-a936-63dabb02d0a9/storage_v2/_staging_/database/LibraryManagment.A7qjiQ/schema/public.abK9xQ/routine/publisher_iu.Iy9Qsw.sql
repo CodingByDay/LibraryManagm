@@ -1,4 +1,4 @@
-create function books_authors_iu(i_id_books_authors int, i_id_books int, i_id_authors int) returns integer
+create function publisher_iu(i_id_publisher int, i_name char varying, i_phone_number bigint, i_email_address bigint, i_id_address int) returns integer
 
     language plpgsql
 as
@@ -6,12 +6,12 @@ $$
 DECLARE
     kljuc INTEGER;
 BEGIN
-    IF (i_id_books_authors IS NULL) THEN
+    IF (i_id_publisher IS NULL) THEN
     BEGIN
         -- uporabimo naslednjo vrednost seqvence
-        kljuc = nextval('books_authors_id_books_authors_seq');
+        kljuc = nextval('publisher_id_publisher_seq');
         -- izvršimo INSERT stavek
-        INSERT INTO books_authors VALUES (kljuc, i_name, i_phone_number, i_email_address, i_id_address);
+        INSERT INTO publisher(id_publisher, name, phone_number, email_address, id_address) VALUES (kljuc, i_name, i_phone_number, i_email_address, i_id_address);
         -- prestrezanje možnih izjem
         EXCEPTION
             WHEN integrity_constraint_violation THEN

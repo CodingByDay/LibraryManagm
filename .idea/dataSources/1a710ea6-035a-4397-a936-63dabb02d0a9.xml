@@ -790,7 +790,7 @@ false posixrules
     <database id="2" parent="1" name="LibraryManagment">
       <ObjectId>24589</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1560</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1670</IntrospectionStateNumber>
       <Relations>sequence|table|24590|24592|1
 sequence|table|24601|24603|1
 sequence|table|24611|24613|1
@@ -873,7 +873,7 @@ sequence|table|24739|24741|1
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1561</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1671</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="18" parent="2" name="heap">
@@ -1455,10 +1455,10 @@ sequence|table|24739|24741|1
       <Rows>0.0</Rows>
     </routine>
     <routine id="91" parent="17" name="location_shelf_number_i">
-      <ObjectId>32789</ObjectId>
+      <ObjectId>32823</ObjectId>
       <Owner>postgres</Owner>
-      <SourceTextLength>438</SourceTextLength>
-      <StateNumber>1443</StateNumber>
+      <SourceTextLength>450</SourceTextLength>
+      <StateNumber>1591</StateNumber>
       <VolatilityKind>volatile</VolatilityKind>
       <ArgumentsDefinition>i_shelf_number integer, i_location_words character varying</ArgumentsDefinition>
       <ResultsDefinition>integer</ResultsDefinition>
@@ -1467,10 +1467,10 @@ sequence|table|24739|24741|1
       <Rows>0.0</Rows>
     </routine>
     <routine id="92" parent="17" name="location_shelf_number_iu">
-      <ObjectId>32796</ObjectId>
+      <ObjectId>32824</ObjectId>
       <Owner>postgres</Owner>
-      <SourceTextLength>2525</SourceTextLength>
-      <StateNumber>1464</StateNumber>
+      <SourceTextLength>2597</SourceTextLength>
+      <StateNumber>1601</StateNumber>
       <VolatilityKind>volatile</VolatilityKind>
       <ArgumentsDefinition>i_id_location_shelf_number integer, i_shelf_number integer, i_location_words character varying</ArgumentsDefinition>
       <ResultsDefinition>integer</ResultsDefinition>
@@ -1515,12 +1515,12 @@ sequence|table|24739|24741|1
       <Rows>0.0</Rows>
     </routine>
     <routine id="96" parent="17" name="publisher_iu">
-      <ObjectId>32805</ObjectId>
+      <ObjectId>32825</ObjectId>
       <Owner>postgres</Owner>
-      <SourceTextLength>2524</SourceTextLength>
-      <StateNumber>1493</StateNumber>
+      <SourceTextLength>2589</SourceTextLength>
+      <StateNumber>1667</StateNumber>
       <VolatilityKind>volatile</VolatilityKind>
-      <ArgumentsDefinition>i_id_publisher integer, i_name character varying, i_phone_number integer, i_email_address integer, i_id_address integer</ArgumentsDefinition>
+      <ArgumentsDefinition>i_id_publisher integer, i_name character varying, i_phone_number bigint, i_email_address bigint, i_id_address integer</ArgumentsDefinition>
       <ResultsDefinition>integer</ResultsDefinition>
       <LanguageName>plpgsql</LanguageName>
       <RoutineKind>function</RoutineKind>
@@ -3181,11 +3181,11 @@ sequence|table|24739|24741|1
     </argument>
     <argument id="380" parent="96" name="i_phone_number">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>bigint|0s</DataType>
     </argument>
     <argument id="381" parent="96" name="i_email_address">
       <Position>4</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>bigint|0s</DataType>
     </argument>
     <argument id="382" parent="96" name="i_id_address">
       <Position>5</Position>

@@ -10,7 +10,7 @@ BEGIN
         -- uporabimo naslednjo vrednost seqvence
         kljuc = nextval('books_authors_id_books_authors_seq');
         -- izvršimo INSERT stavek
-        INSERT INTO books_authors VALUES (kljuc, i_id_books_authors, i_id_book, i_id_authors);
+        INSERT INTO books_authors(id_books_authors, id_book, id_authors) VALUES (kljuc, i_id_books_authors, i_id_book, i_id_authors);
         -- prestrezanje možnih izjem
         EXCEPTION
             WHEN integrity_constraint_violation THEN

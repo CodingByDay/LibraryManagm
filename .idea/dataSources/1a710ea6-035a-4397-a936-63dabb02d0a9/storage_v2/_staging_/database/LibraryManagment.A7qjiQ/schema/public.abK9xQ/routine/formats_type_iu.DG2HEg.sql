@@ -10,7 +10,7 @@ BEGIN
         -- uporabimo naslednjo vrednost seqvence
         kljuc = nextval('formats_type_id_formats_type_seq');
         -- izvršimo INSERT stavek
-        INSERT INTO formats_type VALUES (kljuc, i_format);
+        INSERT INTO formats_type(id_formats_type, format) VALUES (kljuc, i_format);
         -- prestrezanje možnih izjem
         EXCEPTION
             WHEN integrity_constraint_violation THEN

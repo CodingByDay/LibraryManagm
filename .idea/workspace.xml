@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e55bde-6616-4788-a120-91eea67f5377" name="Default Changelist" comment="Final server function plpsql :)">
+    <list default="true" id="43e55bde-6616-4788-a120-91eea67f5377" name="Default Changelist" comment="Fixed insert update bug. Final. :)">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_src_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/books_authors_iu.6dQM2Q.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/books_authors_iu.6dQM2Q.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/formats_type_iu.DG2HEg.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/formats_type_iu.DG2HEg.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/location_shelf_number_iu.M2s7Zw.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/location_shelf_number_iu.M2s7Zw.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/publisher_iu.Iy9Qsw.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a710ea6-035a-4397-a936-63dabb02d0a9/storage_v2/_staging_/database/LibraryManagment.A7qjiQ/schema/public.abK9xQ/routine/publisher_iu.Iy9Qsw.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +51,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Database changes" />
     <MESSAGE value="Final server function plpsql :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final server function plpsql :)" />
+    <MESSAGE value="Fixed insert update bug. Final. :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed insert update bug. Final. :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="173" key="#Notifications" timestamp="1605377082290">
@@ -47,50 +81,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="113" y="109" width="902" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605376824769" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605377278898">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605454781332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605377278898" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605454781332" />
     <state x="559" y="265" key="Github.ShareDialog" timestamp="1605377267965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="559" y="265" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1605377267965" />
-    <state width="708" height="154" key="GridCell.Tab.0.bottom" timestamp="1605445682337">
+    <state width="905" height="301" key="GridCell.Tab.0.bottom" timestamp="1605454483352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605445682337" />
-    <state width="708" height="154" key="GridCell.Tab.0.center" timestamp="1605445682337">
+    <state width="905" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605454483352" />
+    <state width="905" height="301" key="GridCell.Tab.0.center" timestamp="1605454483352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605445682337" />
-    <state width="708" height="154" key="GridCell.Tab.0.left" timestamp="1605445682337">
+    <state width="905" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605454483352" />
+    <state width="905" height="301" key="GridCell.Tab.0.left" timestamp="1605454483343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605445682337" />
-    <state width="708" height="154" key="GridCell.Tab.0.right" timestamp="1605445682337">
+    <state width="905" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605454483343" />
+    <state width="905" height="301" key="GridCell.Tab.0.right" timestamp="1605454483352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="708" height="154" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605445682337" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1605377121067">
+    <state width="905" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605454483352" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1605446160640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605377121067" />
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1605382292101">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605446160640" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2" timestamp="1605445768681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605382292101" />
+    <state x="275" y="92" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605445768681" />
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604910222430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1604910222430" />
-    <state x="413" y="251" width="540" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605375896774">
+    <state x="413" y="251" width="540" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605449521846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="251" width="540" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1605375896774" />
-    <state x="310" y="114" width="492" height="156" key="com.intellij.database.view.ui.DatabasePreviewDialog" timestamp="1605445681999">
+    <state x="413" y="251" width="540" height="263" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1605449521846" />
+    <state x="310" y="114" width="492" height="156" key="com.intellij.database.view.ui.DatabasePreviewDialog" timestamp="1605449504586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="114" width="492" height="156" key="com.intellij.database.view.ui.DatabasePreviewDialog/0.0.1366.728@0.0.1366.728" timestamp="1605445681999" />
+    <state x="310" y="114" width="492" height="156" key="com.intellij.database.view.ui.DatabasePreviewDialog/0.0.1366.728@0.0.1366.728" timestamp="1605449504586" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605442981558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
